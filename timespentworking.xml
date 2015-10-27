@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<countries>
+  <country name="Australia">
+    <men_unpaid>171.6</men_unpaid>
+    <women_unpaid>311</women_unpaid>
+    <men_paid>304.1</men_paid>
+    <women_paid>172</women_paid>
+  </country>
+
+  <country name="Austria">
+    <men_unpaid>135.3</men_unpaid>
+    <women_unpaid>268.9</women_unpaid>
+    <men_paid>364.8</men_paid>
+    <women_paid>248.8</women_paid>
+  </country>
+
+  <country name="Belgium">
+    <men_unpaid>150.8</men_unpaid>
+    <women_unpaid>245</women_unpaid>
+    <men_paid>265.6</men_paid>
+    <women_paid>189</women_paid>
+  </country>
+
+  <country name="Canada">
+    <men_unpaid>159.6</men_unpaid>
+    <women_unpaid>253.6</women_unpaid>
+    <men_paid>341.4</men_paid>
+    <women_paid>267</women_paid>
+  </country>
+
+  <country name="Denmark">
+    <men_unpaid>186.1</men_unpaid>
+    <women_unpaid>242.8</women_unpaid>
+    <men_paid>260.1</men_paid>
+    <women_paid>194.6</women_paid>
+  </country>
+
+  <country name="Estonia">
+    <men_unpaid>169</men_unpaid>
+    <women_unpaid>287.8</women_unpaid>
+    <men_paid>326</men_paid>
+    <women_paid>247.8</women_paid>
+  </country>
+
+  <country name="Finland">
+    <men_unpaid>159</men_unpaid>
+    <women_unpaid>232</women_unpaid>
+    <men_paid>249</men_paid>
+    <women_paid>210</women_paid>
+  </country>
+
+  <country name="France">
+    <men_unpaid>142.7</men_unpaid>
+    <women_unpaid>232.5</women_unpaid>
+    <men_paid>233.4</men_paid>
+    <women_paid>172.5</women_paid>
+  </country>
+
+  <country name="Germany">
+    <men_unpaid>163.8</men_unpaid>
+    <women_unpaid>268.8</women_unpaid>
+    <men_paid>281.6</men_paid>
+    <women_paid>180.9</women_paid>
+  </country>
+
+  <country name="Hungary">
+    <men_unpaid>127.1</men_unpaid>
+    <women_unpaid>268.1</women_unpaid>
+    <men_paid>327.2</men_paid>
+    <women_paid>232</women_paid>
+  </country>
+
+  <country name="Ireland">
+    <men_unpaid>129.2</men_unpaid>
+    <women_unpaid>296.1</women_unpaid>
+    <men_paid>343.9</men_paid>
+    <women_paid>197.1</women_paid>
+  </country>
+
+  <country name="Italy">
+    <men_unpaid>102.9</men_unpaid>
+    <women_unpaid>325.8</women_unpaid>
+    <men_paid>282.9</men_paid>
+    <women_paid>162.3</women_paid>
+  </country>
+
+  <country name="Japan">
+    <men_unpaid>69</men_unpaid>
+    <women_unpaid>325.7</women_unpaid>
+    <men_paid>471.5</men_paid>
+    <women_paid>206.4</women_paid>
+  </country>
+
+  <country name="Korea">
+    <men_unpaid>45</men_unpaid>
+    <women_unpaid>227.3</women_unpaid>
+    <men_paid>421.9</men_paid>
+    <women_paid>273.3</women_paid>
+  </country>
+
+  <country name="Mexico">
+    <men_unpaid>112.6</men_unpaid>
+    <women_unpaid>373.3</women_unpaid>
+    <men_paid>467.6</men_paid>
+    <women_paid>233.2</women_paid>
+  </country>
+
+  <country name="Netherlands">
+    <men_unpaid>163</men_unpaid>
+    <women_unpaid>272.8</women_unpaid>
+    <men_paid>297.5</men_paid>
+    <women_paid>167.5</women_paid>
+  </country>
+
+  <country name="New Zealand">
+    <men_unpaid>141</men_unpaid>
+    <women_unpaid>264</women_unpaid>
+    <men_paid>338</men_paid>
+    <women_paid>205</women_paid>
+  </country>
+
+  <country name="Norway">
+    <men_unpaid>180</men_unpaid>
+    <women_unpaid>210</women_unpaid>
+    <men_paid>262.2</men_paid>
+    <women_paid>197.4</women_paid>
+  </country>
+
+  <country name="Poland">
+    <men_unpaid>157.1</men_unpaid>
+    <women_unpaid>295.8</women_unpaid>
+    <men_paid>303.2</men_paid>
+    <women_paid>196.9</women_paid>
+  </country>
+
+  <country name="Portugal">
+    <men_unpaid>96.3</men_unpaid>
+    <women_unpaid>328.2</women_unpaid>
+    <men_paid>372.3</men_paid>
+    <women_paid>231.3</women_paid>
+  </country>
+
+  <country name="Slovenia">
+    <men_unpaid>166.5</men_unpaid>
+    <women_unpaid>286.2</women_unpaid>
+    <men_paid>299.8</men_paid>
+    <women_paid>234.2</women_paid>
+  </country>
+
+  <country name="Spain">
+    <men_unpaid>153.9</men_unpaid>
+    <women_unpaid>258.1</women_unpaid>
+    <men_paid>333.8</men_paid>
+    <women_paid>245.8</women_paid>
+  </country>
+
+  <country name="Sweden">
+    <men_unpaid>154</men_unpaid>
+    <women_unpaid>206.5</women_unpaid>
+    <men_paid>321.9</men_paid>
+    <women_paid>268.7</women_paid>
+  </country>
+
+  <country name="Turkey">
+    <men_unpaid>116.4</men_unpaid>
+    <women_unpaid>376.7</women_unpaid>
+    <men_paid>360.3</men_paid>
+    <women_paid>123.7</women_paid>
+  </country>
+
+  <country name="United Kingdom">
+    <men_unpaid>140.6</men_unpaid>
+    <women_unpaid>257.8</women_unpaid>
+    <men_paid>297.2</men_paid>
+    <women_paid>196.6</women_paid>
+  </country>
+
+  <country name="United States">
+    <men_unpaid>161.1</men_unpaid>
+    <women_unpaid>248.2</women_unpaid>
+    <men_paid>308.5</men_paid>
+    <women_paid>242.5</women_paid>
+  </country>
+
+  <country name="OECD - Average">
+    <men_unpaid>140.5</men_unpaid>
+    <women_unpaid>275.5</women_unpaid>
+    <men_paid>324.4</men_paid>
+    <women_paid>211.4</women_paid>
+  </country>
+
+  <country name="China (People's Republic of)">
+    <men_unpaid>91</men_unpaid>
+    <women_unpaid>234</women_unpaid>
+    <men_paid>390</men_paid>
+    <women_paid>291</women_paid>
+  </country>
+
+  <country name="India">
+    <men_unpaid>51.8</men_unpaid>
+    <women_unpaid>351.9</women_unpaid>
+    <men_paid>390.6</men_paid>
+    <women_paid>184.7</women_paid>
+  </country>
+
+  <country name="South Africa">
+    <men_unpaid>91.6</men_unpaid>
+    <women_unpaid>257</women_unpaid>
+    <men_paid>324.7</men_paid>
+    <women_paid>214.7</women_paid>
+  </country>
+</countries>
