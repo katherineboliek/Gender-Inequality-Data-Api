@@ -33,11 +33,11 @@ function parseDataThree(xml){
 function buildLineGraph() {
     $('#manager').highcharts({
         title: {
-            text: 'Monthly Average Temperature',
+            text: 'Percentage of men and women in managerial positions',
             x: -20 //center
         },
         subtitle: {
-            text: 'Source: WorldClimate.com',
+            text: 'Source: <a href="http://stats.oecd.org/index.aspx?queryid=54751#">OECD</a>',
             x: -20
         },
         xAxis: {
@@ -45,7 +45,7 @@ function buildLineGraph() {
         },
         yAxis: {
             title: {
-                text: 'Percentage in Managerial Positions'
+                text: 'Percentage'
             },
             plotLines: [{
                 value: 0,
