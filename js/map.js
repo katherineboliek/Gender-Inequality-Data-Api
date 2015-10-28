@@ -1,5 +1,5 @@
 function buildMap() {
-  console.log("buildingMap!")
+  //console.log("buildingMap!")
 //Prepare demo data
 
 
@@ -29,8 +29,8 @@ function buildMap() {
       colorAxis: {
           min: 0,
           max: 40,
-          minColor: '#ff0000',
-          maxColor: '#0000ff',
+          minColor: '#0000ff',
+          maxColor: '#ff0000',
       },
 
       motion: {
@@ -53,7 +53,7 @@ function buildMap() {
           name: 'Wage Gap',
           states: {
               hover: {
-                  color: '#BADA55'
+                  color: '#7BAFD4'
               }
 
           },

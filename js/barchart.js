@@ -22,8 +22,8 @@ function parseDataTwo(xml){
     femalePaid.push(parseFloat($(this).find("women_paid").text()));
   });
 
-  console.log(countries);
-  console.log(maleUnpaid);
+  // console.log(countries);
+  // console.log(maleUnpaid);
 
   buildBarChart();
 }
@@ -90,6 +90,6 @@ function buildBarChart() {
 };
 
 $(document).ready(function(){
-console.log("doc ready!");
+//console.log("doc ready!");
 loadDataTwo();
 })

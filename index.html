@@ -3,7 +3,8 @@
     <title>Test Highcharts</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css"> <!--access, copy and edit to change css styles on table-->
+    <!--link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css"access, copy and edit to change css styles on table-->
+    <link rel="stylesheet" href="css/datatable.css"/>
   </head>
   <body>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -30,7 +31,7 @@
         </div>
         <div>
           <span id="byline">By <a href="http://katherineboliek.com/">Katherine Boliek</a></span>
-          <div id="published">October 28</div>
+          <span id="published">October 28</span>
         </div>
 
         <div class="text">
@@ -42,14 +43,19 @@
           <p>The wage gap, calculated here as &quot;as the difference between male and female median wages divided by the male median wages&quot; refers to full time employees. This is the simplest measurement of how equal men and women are treated in the workplace. The wage gap in US in 2013 was 17.9 compared to the OECD average of 15.5. The highest wage gap is in <a href="http://www.usatoday.com/story/opinion/2015/03/14/womens-inequality-south-korea-park/70165200/">South Korea</a> which has decreased since 2000 with 41.8 to 36.6.</p>
           <br>
         </div>
-      <div class="row">
+      <div class="row stat">
         <div class="col-md-4 col-sm-12 text">
           <p>Another good indicator of the gender equality in a country is the balance of paid and unpaid work for both men and women. Unpaid work includes tasks such as working around the house, shopping for groceries, and childcare. Women across the world spend about double the time doing unpaid work compared to their male counterparts. Additionally, comparing the total time spent working, paid and unpaid, women work more than men. In the US the difference is about 20 minutes of work a day. In a week this adds up to 2.3 hours of extra work. The OECD highlights this <a href="http://www.oecd.org/gender/data/balancingpaidworkunpaidworkandleisure.htm">relationship with leisure time</a>. Men are able spend this extra time each day in personal care while women are finishing up unpaid tasks.</p>
         </div>
         <div id="barchart" class="col-md-8 col-sm-12"></div>
       </div>
-      <br><br><br><br>
-      <div id="manager"></div>
+      <div class="row stat">
+
+        <div class="col-md-4 col-sm-12 text pull-right">
+          <p>Lastly, how many women are in managerial positions says much about how the equality in the workplace. Here the percentage of men compared to the percentage of women in Iceland. Iceland is ranked as having the world&#39;s <a href=”http://reports.weforum.org/global-gender-gap-report-2014/rankings/>smallest gender gap worldwide</a>. Yet, even in 2013 there remains a large difference. </p>
+        </div>
+        <div id="manager" class="col-md-8 col-sm-12"></div>
+      </div>
       <br><br><br><br>
       <table id="example" class="display" cellspacing="0" width="100%">
               <thead>

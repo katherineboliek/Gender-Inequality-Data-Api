@@ -3,85 +3,57 @@
     <year name="2000">
       <iceland_male>8.4</iceland_male>
       <iceland_female>4</iceland_female>
-      <korea_male>3.6</korea_male>
-      <korea_female>0.3</korea_female>
     </year>
     <year name="2001">
       <iceland_male>9.8</iceland_male>
       <iceland_female>4.6</iceland_female>
-      <korea_male>3.9</korea_male>
-      <korea_female>0.3</korea_female>
     </year>
     <year name="2002">
       <iceland_male>10.7</iceland_male>
       <iceland_female>5</iceland_female>
-      <korea_male>4.2</korea_male>
-      <korea_female>0.3</korea_female>
     </year>
     <year name="2003">
       <iceland_male>7.8</iceland_male>
       <iceland_female>5.1</iceland_female>
-      <korea_male>4.3</korea_male>
-      <korea_female>0.4</korea_female>
     </year>
     <year name="2004">
       <iceland_male>9.1</iceland_male>
       <iceland_female>5.1</iceland_female>
-      <korea_male>4.1</korea_male>
-      <korea_female>0.4</korea_female>
     </year>
     <year name="2005">
       <iceland_male>9.6</iceland_male>
       <iceland_female>4.1</iceland_female>
-      <korea_male>4</korea_male>
-      <korea_female>0.5</korea_female>
     </year>
     <year name="2006">
       <iceland_male>11.1</iceland_male>
       <iceland_female>5.5</iceland_female>
-      <korea_male>3.9</korea_male>
-      <korea_female>0.5</korea_female>
     </year>
     <year name="2007">
       <iceland_male>12</iceland_male>
       <iceland_female>6.1</iceland_female>
-      <korea_male>3.7</korea_male>
-      <korea_female>0.5</korea_female>
     </year>
     <year name="2008">
       <iceland_male>11.9</iceland_male>
       <iceland_female>6.9</iceland_female>
-      <korea_male>3.6</korea_male>
-      <korea_female>0.5</korea_female>
     </year>
     <year name="2009">
       <iceland_male>12.7</iceland_male>
       <iceland_female>7.1</iceland_female>
-      <korea_male>null</korea_male>
-      <korea_female>null</korea_female>
     </year>
     <year name="2010">
       <iceland_male>11.1</iceland_male>
       <iceland_female>6.3</iceland_female>
-      <korea_male>null</korea_male>
-      <korea_female>null</korea_female>
     </year>
     <year name="2011">
       <iceland_male>10.4</iceland_male>
       <iceland_female>7.5</iceland_female>
-      <korea_male>3.3</korea_male>
-      <korea_female>0.5</korea_female>
     </year>
     <year name="2012">
       <iceland_male>11.7</iceland_male>
       <iceland_female>8.4</iceland_female>
-      <korea_male>2.9</korea_male>
-      <korea_female>0.5</korea_female>
     </year>
     <year name="2013">
       <iceland_male>13.3</iceland_male>
       <iceland_female>8.7</iceland_female>
-      <korea_male>null</korea_male>
-      <korea_female>null</korea_female>
     </year>
 </years>

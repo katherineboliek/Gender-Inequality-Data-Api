@@ -1,8 +1,6 @@
 var years = [];
 var maleIceland = [];
 var femaleIceland = [];
-var maleKorea = [];
-var femaleKorea = [];
 
 function loadDataThree(){
   $.ajax({
@@ -16,16 +14,10 @@ function loadDataThree(){
 function parseDataThree(xml){
   $(xml).find("year").each(function(index){
     years.push($(this).attr("name"));
+
     maleIceland.push(parseFloat($(this).find("iceland_male").text()));
     femaleIceland.push(parseFloat($(this).find("iceland_female").text()));
-    maleKorea.push(parseFloat($(this).find("korea_male").text()));
-    femaleKorea.push(parseFloat($(this).find("korea_female").text()));
-
   });
-
-  console.log(years);
-  console.log(maleIceland);
-  console.log(maleKorea);
 
   buildLineGraph();
 }
@@ -33,7 +25,7 @@ function parseDataThree(xml){
 function buildLineGraph() {
     $('#manager').highcharts({
         title: {
-            text: 'Percentage of men and women in managerial positions',
+            text: 'Percentage of men and women in managerial positions in Iceland',
             x: -20 //center
         },
         subtitle: {
@@ -68,25 +60,17 @@ function buildLineGraph() {
             borderWidth: 0
         },
         series: [{
-            name: 'Iceland Male',
+            name: 'Male',
             data: maleIceland,
             color: '#FF0000'
         }, {
-            name: 'Iceland Female',
+            name: 'Female',
             data: femaleIceland,
-            color: '#0000FF'
-        }, {
-            name: 'Korea Male',
-            data: maleKorea,
-            color: '#FF0000'
-        }, {
-            name: 'Korea Female',
-            data: femaleKorea,
             color: '#0000FF'
         }]
     });
 };
 $(document).ready(function(){
-console.log("doc ready!");
+//console.log("doc ready!");
 loadDataThree();
 })
