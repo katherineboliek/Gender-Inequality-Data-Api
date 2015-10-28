@@ -68,19 +68,23 @@ function buildBarChart() {
         series: [{
             name: 'Men Paid',
             data: malePaid,
-            stack: 'male'
+            stack: 'male',
+            color: '#ff7f7f'
         }, {
             name: 'Men Unpaid',
             data: maleUnpaid,
-            stack: 'male'
+            stack: 'male',
+            color: '#7F0000'
         }, {
             name: 'Women Paid',
             data: femalePaid,
-            stack: 'female'
+            stack: 'female',
+            color: '#7000FF'
         }, {
             name: 'Women Unpaid',
             data: femaleUnpaid,
-            stack: 'female'
+            stack: 'female',
+            color: '#00007F'
         }]
     });
 };
