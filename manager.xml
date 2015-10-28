@@ -1,67 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<countries>
-    <country name="Iceland Male">
-        <_2000>8.4</_2000>
-        <_2001>9.8</_2001>
-        <_2002>10.7</_2002>
-        <_2003>7.8</_2003>
-        <_2004>9.1</_2004>
-        <_2005>9.6</_2005>
-        <_2006>11.1</_2006>
-        <_2007>12</_2007>
-        <_2008>11.9</_2008>
-        <_2009>12.7</_2009>
-        <_2010>11.1</_2010>
-        <_2011>10.4</_2011>
-        <_2012>11.7</_2012>
-        <_2013>13.3</_2013>
-    </country>
-    <country name="Iceland Female">
-        <_2000>4</_2000>
-        <_2001>4.6</_2001>
-        <_2002>5</_2002>
-        <_2003>5.1</_2003>
-        <_2004>5.1</_2004>
-        <_2005>4.1</_2005>
-        <_2006>5.5</_2006>
-        <_2007>6.1</_2007>
-        <_2008>6.9</_2008>
-        <_2009>7.1</_2009>
-        <_2010>6.3</_2010>
-        <_2011>7.5</_2011>
-        <_2012>8.4</_2012>
-        <_2013>8.7</_2013>
-    </country>
-    <country name="Korea Male">
-        <_2000>3.6</_2000>
-        <_2001>3.9</_2001>
-        <_2002>4.2</_2002>
-        <_2003>4.3</_2003>
-        <_2004>4.1</_2004>
-        <_2005>4</_2005>
-        <_2006>3.9</_2006>
-        <_2007>3.7</_2007>
-        <_2008>3.6</_2008>
-        <_2009>null</_2009>
-        <_2010>null</_2010>
-        <_2011>3.3</_2011>
-        <_2012>2.9</_2012>
-        <_2013>null</_2013>
-    </country>
-    <country name="Korea Female">
-        <_2000>0.3</_2000>
-        <_2001>0.3</_2001>
-        <_2002>0.3</_2002>
-        <_2003>0.4</_2003>
-        <_2004>0.4</_2004>
-        <_2005>0.5</_2005>
-        <_2006>0.5</_2006>
-        <_2007>0.5</_2007>
-        <_2008>0.5</_2008>
-        <_2009>null</_2009>
-        <_2010>null</_2010>
-        <_2011>0.5</_2011>
-        <_2012>0.5</_2012>
-        <_2013>null</_2013>
-    </country>
-</countries>
+<years>
+    <year name="2000">
+      <iceland_male>8.4</iceland_male>
+      <iceland_female>4</iceland_female>
+      <korea_male>3.6</korea_male>
+      <korea_female>0.3</korea_female>
+    </year>
+    <year name="2001">
+      <iceland_male>9.8</iceland_male>
+      <iceland_female>4.6</iceland_female>
+      <korea_male>3.9</korea_male>
+      <korea_female>0.3</korea_female>
+    </year>
+    <year name="2002">
+      <iceland_male>10.7</iceland_male>
+      <iceland_female>5</iceland_female>
+      <korea_male>4.2</korea_male>
+      <korea_female>0.3</korea_female>
+    </year>
+    <year name="2003">
+      <iceland_male>7.8</iceland_male>
+      <iceland_female>5.1</iceland_female>
+      <korea_male>4.3</korea_male>
+      <korea_female>0.4</korea_female>
+    </year>
+    <year name="2004">
+      <iceland_male>9.1</iceland_male>
+      <iceland_female>5.1</iceland_female>
+      <korea_male>4.1</korea_male>
+      <korea_female>0.4</korea_female>
+    </year>
+    <year name="2005">
+      <iceland_male>9.6</iceland_male>
+      <iceland_female>4.1</iceland_female>
+      <korea_male>4</korea_male>
+      <korea_female>0.5</korea_female>
+    </year>
+    <year name="2006">
+      <iceland_male>11.1</iceland_male>
+      <iceland_female>5.5</iceland_female>
+      <korea_male>3.9</korea_male>
+      <korea_female>0.5</korea_female>
+    </year>
+    <year name="2007">
+      <iceland_male>12</iceland_male>
+      <iceland_female>6.1</iceland_female>
+      <korea_male>3.7</korea_male>
+      <korea_female>0.5</korea_female>
+    </year>
+    <year name="2008">
+      <iceland_male>11.9</iceland_male>
+      <iceland_female>6.9</iceland_female>
+      <korea_male>3.6</korea_male>
+      <korea_female>0.5</korea_female>
+    </year>
+    <year name="2009">
+      <iceland_male>12.7</iceland_male>
+      <iceland_female>7.1</iceland_female>
+      <korea_male>null</korea_male>
+      <korea_female>null</korea_female>
+    </year>
+    <year name="2010">
+      <iceland_male>11.1</iceland_male>
+      <iceland_female>6.3</iceland_female>
+      <korea_male>null</korea_male>
+      <korea_female>null</korea_female>
+    </year>
+    <year name="2011">
+      <iceland_male>10.4</iceland_male>
+      <iceland_female>7.5</iceland_female>
+      <korea_male>3.3</korea_male>
+      <korea_female>0.5</korea_female>
+    </year>
+    <year name="2012">
+      <iceland_male>11.7</iceland_male>
+      <iceland_female>8.4</iceland_female>
+      <korea_male>2.9</korea_male>
+      <korea_female>0.5</korea_female>
+    </year>
+    <year name="2013">
+      <iceland_male>13.3</iceland_male>
+      <iceland_female>8.7</iceland_female>
+      <korea_male>null</korea_male>
+      <korea_female>null</korea_female>
+    </year>
+</years>
