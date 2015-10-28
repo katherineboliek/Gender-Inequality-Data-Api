@@ -44,6 +44,12 @@
   margin: 0 auto;
 }
 
+#manager {
+  height: 400px;
+  min-width: 410px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 /*Starting Page Style*/
 body {

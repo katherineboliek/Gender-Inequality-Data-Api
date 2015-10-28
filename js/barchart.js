@@ -69,7 +69,7 @@ function buildBarChart() {
             name: 'Men Paid',
             data: malePaid,
             stack: 'male',
-            color: '#ff7f7f'
+            color: '#ff0000'
         }, {
             name: 'Men Unpaid',
             data: maleUnpaid,
@@ -79,7 +79,7 @@ function buildBarChart() {
             name: 'Women Paid',
             data: femalePaid,
             stack: 'female',
-            color: '#7000FF'
+            color: '#0000ff'
         }, {
             name: 'Women Unpaid',
             data: femaleUnpaid,
