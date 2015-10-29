@@ -1,15 +1,16 @@
 <html>
   <head>
-    <title>Test Highcharts</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <title>Gender Equality</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"/>
-    <!--link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css"access, copy and edit to change css styles on table-->
-    <link rel="stylesheet" href="css/datatable.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css">
   </head>
   <body>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
     <script src="http://code.highcharts.com/maps/modules/map.js"></script>
     <script src="http://code.highcharts.com/maps/modules/exporting.js"></script>
@@ -18,9 +19,6 @@
     <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
     <div id="header">
-      <span class="sections pull-left">Sections</span>
-      <span><img src="washingtonpost.png"</span>
-      <span class="subscribe pull-right">Subscribe</span>
     </div>
     <div class="container">
 
@@ -40,7 +38,7 @@
         <div id="map"></div>
         <br><br><br><br>
         <div class="text">
-          <p>The wage gap, calculated here as &quot;as the difference between male and female median wages divided by the male median wages&quot; refers to full time employees. This is the simplest measurement of how equal men and women are treated in the workplace. The wage gap in US in 2013 was 17.9 compared to the OECD average of 15.5. The highest wage gap is in <a href="http://www.usatoday.com/story/opinion/2015/03/14/womens-inequality-south-korea-park/70165200/">South Korea</a> which has decreased since 2000 with 41.8 to 36.6.</p>
+          <p>The wage gap, calculated here &quot;as the difference between male and female median wages divided by the male median wages&quot; refers to full time employees. This is the simplest measurement of how equal men and women are treated in the workplace. The wage gap in US in 2013 was 17.9 compared to the OECD average of 15.5. The highest wage gap is in <a href="http://www.usatoday.com/story/opinion/2015/03/14/womens-inequality-south-korea-park/70165200/">South Korea</a> which has decreased since 2000 with 41.8 to 36.6.</p>
           <br>
         </div>
       <div class="row stat">
@@ -52,13 +50,13 @@
       <div class="row stat">
 
         <div class="col-md-4 col-sm-12 text pull-right">
-          <p>Lastly, how many women are in managerial positions says much about how the equality in the workplace. Here the percentage of men compared to the percentage of women in Iceland. Iceland is ranked as having the world&#39;s <a href=”http://reports.weforum.org/global-gender-gap-report-2014/rankings/>smallest gender gap worldwide</a>. Yet, even in 2013 there remains a large difference. </p>
+          <p>Lastly, the number of women in managerial positions says much about the nation's equality in the workplace. Here the percentage of men is compared to the percentage of women in Iceland. Iceland is ranked as having the world&#39;s <a href="http://reports.weforum.org/global-gender-gap-report-2014/rankings">smallest gender gap worldwide</a>. Yet, even in 2013 there remains a large difference. </p>
         </div>
         <div id="manager" class="col-md-8 col-sm-12"></div>
       </div>
       <br><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg"><br class="hidden-sm hidden-md hidden-lg">
       <div class="text">
-        <p>Workplace gender equality, like gender equality in general is improving slowly, but there remains a gap across every country in a large number of categories. Some places are much better off than others though. Check out the table to see how a specific country compares in any of these categories. For more indicators refer to <a href="http://www.oecd.org/gender/data/employment.htm">OECD&#39;s further analysis.</a></p>
+        <p>Workplace gender equality, like gender equality in general, is improving slowly. However there remains a gap across every country in a large number of categories. Some places are much better off than others though. Check out the table to see how each country compares in any of these categories. For more indicators refer to <a href="http://www.oecd.org/gender/data/employment.htm">OECD&#39;s further analysis.</a></p>
       </div>
       <br>
       <div="row">
@@ -94,10 +92,12 @@
         </table>
       </div>
     </div>
+    <br>
     <script src="js/map.js"></script>
     <script src="js/barchart.js"></script>
     <script src="js/manager.js"></script>
 
+    <script src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
     <script src="http://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
     <script>
     $(document).ready(function() {

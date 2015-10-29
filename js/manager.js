@@ -25,7 +25,7 @@ function parseDataThree(xml){
 function buildLineGraph() {
     $('#manager').highcharts({
         title: {
-            text: 'Percentage of men and women in managerial positions in Iceland',
+            text: 'Icelandic percentage of workers in managerial positions',
             x: -20 //center
         },
         subtitle: {
