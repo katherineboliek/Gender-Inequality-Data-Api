@@ -38,7 +38,11 @@ function buildBarChart() {
         title: {
             text: 'Time spent in paid and unpaid work by gender'
         },
-
+        subtitle: {
+            text: 'Source: <a href="http://stats.oecd.org/index.aspx?queryid=54751#">OECD</a>',
+            x: -20
+        },
+        
         xAxis: {
             categories: countries
         },
